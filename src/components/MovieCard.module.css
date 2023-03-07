@@ -1,0 +1,41 @@
+.movieCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0,5s;
+}
+
+.movieCard:hover{
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.movieImage{
+    border-radius: 10px;
+
+}
+
+@media (max-width: 560px){
+    .movieImage{
+        width: 90%; 
+        height: auto;
+    }
+}
+.title{
+    color: rgba(171, 90, 246, 0.8);
+}
+
+.average{
+    width: 50px;
+    height: 50px;
+    color: greenyellow;
+    position: absolute;
+    margin: .5rem;
+    background-color: rgba(9,0,5,.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
