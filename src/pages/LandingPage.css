@@ -1,0 +1,12 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.textPrin{
+    width: 80%;
+    text-align: justify;
+    font-size: 2rem;
+}

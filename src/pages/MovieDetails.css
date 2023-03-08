@@ -4,6 +4,16 @@
     flex-wrap: wrap;
 }
 
+.movieImage{
+    margin-top: 25px;
+    width: auto;
+    height: fit-content;
+}
+@media (max-width: 560px) {
+    .movieImage{
+        width: 90%;
+    }
+}
 .col{
     max-width: 400px;
     margin: 15px;
@@ -21,3 +31,25 @@
 .movieDetails{
     font-size: 1.5rem;
 }
+
+@media (max-width: 560px){
+    .col {
+        width: 100%;
+    }
+}
+
+.responsiveContent {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.2%;
+    margin-bottom: 20px;
+  }
+
+  .responsiveContent iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

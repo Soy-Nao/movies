@@ -39,3 +39,9 @@
     justify-content: center;
     
 }
+
+@media (max-width: 560px) {
+    .average{
+        margin-left: 1.5rem;
+    }
+}
