@@ -10,3 +10,9 @@
     text-align: justify;
     font-size: 2rem;
 }
+
+@media (max-width: 560px) {
+    .textPrin{
+        font-size: .7rem;
+    }
+}
